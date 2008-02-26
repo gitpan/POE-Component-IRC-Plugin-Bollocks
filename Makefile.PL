@@ -1,0 +1,10 @@
+use inc::Module::Install;
+name 'POE-Component-IRC-Plugin-Bollocks';
+author 'Chris Williams <chris@bingosnet.co.uk>';
+version_from 'lib/POE/Component/IRC/Plugin/Bollocks.pm';
+license 'perl';
+build_requires 'Test::More' => 0.47;
+requires 'Dev::Bollocks' => 0.06;
+requires 'POE' => 0.38;
+requires 'POE::Component::IRC' => 5.68;
+WriteAll;
