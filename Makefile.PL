@@ -5,6 +5,7 @@ author 'Chris Williams <chris@bingosnet.co.uk>';
 version_from 'lib/POE/Component/IRC/Plugin/Bollocks.pm';
 abstract_from 'lib/POE/Component/IRC/Plugin/Bollocks.pm';
 license 'perl';
+perl_version '5.000';
 build_requires 'Test::More' => 0.47;
 requires 'warnings::compat' => 0 if $] < 5.006;
 requires 'Dev::Bollocks' => 0.06;
